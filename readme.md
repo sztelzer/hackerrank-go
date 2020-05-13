@@ -8,7 +8,7 @@ This Tests object is created traversing the directory looking for tests, based o
 It considers one test each filename on the format `"input" + "##" + ".txt"` and look for output equivalent file.
 This means "input00.txt" is considered, but "Xput00.txt" is not considered.
 
-For each test, it will have properties of a name (made of the test file number) and two file readers. Theses file readers have methods that are actually used.
+For each test, it will have properties of a name (made of the test file number) and two file readers. These file readers have methods that are actually used.
 
 ```
 Tests.Test.Name
